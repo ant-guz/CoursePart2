@@ -23,15 +23,17 @@ namespace HW2.Middleware
         {
             IManagementCars car = new SimpleCar("BMW", 2500, 7);
             var path = context.Request.Path;
-            if (path == "/careName")
+            if (path == "/carName")
             {
                 context.Response.StatusCode = 200;
-                await context.Response.WriteAsync($"Car name is {car.GetCarName}");
+                await context.Response.WriteAsync($"Car name is {car.GetCarName()}");
             }
             else 
             {
                 await requestDelegate.Invoke(context);
             }
+
+
 
         }
     }

@@ -23,7 +23,7 @@ namespace HW2.Middleware
             if (path == "/careEngine")
             {
                 context.Response.StatusCode = 200;
-                await context.Response.WriteAsync($"Car engine is {car.GetCarEngine}");
+                await context.Response.WriteAsync($"Car engine is {car.GetCarEngine()}");
             }
             else
             {

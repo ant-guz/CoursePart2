@@ -24,7 +24,7 @@ namespace HW2.Middleware
             if (path == "/careAge")
             {
                 context.Response.StatusCode = 200;
-                await context.Response.WriteAsync($"Car age is {car.GetCarAge}");
+                await context.Response.WriteAsync($"Car age is {car.GetCarAge()}");
             }
             else
             {

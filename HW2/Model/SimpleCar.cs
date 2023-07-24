@@ -4,9 +4,9 @@ namespace HW2.Model
 {
     public class SimpleCar : IManagementCars
     {
-        string _carName;
-        int _carEngine;
-        int _carAge;
+        readonly string _carName;
+        readonly int _carEngine;
+        readonly int _carAge;
         
         public SimpleCar() { }
         public SimpleCar(string carName, int carEngine, int carAge)
