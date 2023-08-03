@@ -1,0 +1,20 @@
+﻿@page
+@model HW5.Pages.MyHobbiesModel
+@{
+    ViewData["Title"] = "My hobby";
+}
+
+<section id="hobby">
+    <h1>My hobbies are:</h1>
+
+    <div>
+        @foreach (var Hobby in Model.MyHobbies)
+        {
+            <h3>Hobby name: @Hobby.HobbyName</h3>
+            <h3>Hobby description: @Hobby.HobbyDescription</h3>
+            <p></p>
+        }
+
+    </div>
+
+</section>

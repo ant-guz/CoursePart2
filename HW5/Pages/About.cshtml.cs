@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace HW4.Pages.MyPages
+namespace HW5.Pages
 {
-    public class AboutMeModel : PageModel
+    public class AboutModel : PageModel
     {
         public void OnGet()
         {
