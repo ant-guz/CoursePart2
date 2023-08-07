@@ -1,0 +1,145 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+header {
+    background: linear-gradient(to right, #cde2bb, #234373); /* Adjust colors as needed */
+    padding: 20px;
+    color: #adb5bd;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;
+    background-color: aquamarine;
+    background-image: url("../images/cool-background.png");
+    background-size: cover;
+}
+.display-4 {
+    margin: 0;
+    text-align: center;
+}
+.text-1 {
+    margin: 0;
+    text-align: center;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+.content {
+    padding: 0 0 100px;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+.button-spacing::before {
+    content: '';
+    display: block;
+    width: 25px; /* Увеличиваем отступ между кнопками */
+}
+.button-spacing2::before {
+    content: '';
+    display: block;
+    height: 80px; /* Увеличиваем отступ между кнопками */
+}
+.button-spacing3 {
+    content: '';
+    display: block;
+    height: 50px; /* Увеличиваем отступ между кнопками */
+}
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px; /* Уменьшаем высоту кнопок */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 30px; /* Увеличиваем радиус скругления */
+    transition: background-color 0.3s;
+    margin: 5px; /* Добавляем отступы между кнопками */
+    display: flex; /* Добавим стиль flex для кнопки */
+    justify-content: center; /* Выравниваем содержимое по горизонтали */
+    align-items: center; /* Выравниваем содержимое по вертикали */
+    flex-direction: column;
+}
+
+.button-long {
+    color: black;
+    background-color: white;
+}
+
+.button-transparent {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.button-long:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-transparent:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-long:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-transparent:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-square {
+    width: 200px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+.button-square:hover {
+        background-color: black;
+        color: white;
+}
+
+.button-square img {
+        width: 70px; /* Фиксированная ширина изображения */
+        height: 70px; /* Фиксированная высота изображения */
+        margin-bottom: 5px;
+}
