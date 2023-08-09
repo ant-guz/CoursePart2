@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW3", "HW3\HW3.csproj", "{E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW5", "HW5\HW5.csproj", "{7924F8E5-5A38-4F04-A5AF-CE4D543EBE1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLandCSS", "HTMLandCSS\HTMLandCSS.csproj", "{6A34191C-2BC6-4C27-A41D-90DD6F3A259A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTMLandCSS", "HTMLandCSS\HTMLandCSS.csproj", "{6A34191C-2BC6-4C27-A41D-90DD6F3A259A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.Additional", "HW.Additional\HW.Additional.csproj", "{09D5D96A-A3B7-4848-A15A-CF7D6836D514}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6A34191C-2BC6-4C27-A41D-90DD6F3A259A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A34191C-2BC6-4C27-A41D-90DD6F3A259A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A34191C-2BC6-4C27-A41D-90DD6F3A259A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

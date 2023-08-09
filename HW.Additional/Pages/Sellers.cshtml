@@ -1,0 +1,25 @@
+﻿@page
+@model HW.Additional.Pages.SellersModel
+@{
+    ViewData["Title"] = "Sellers";
+}
+<section id="seller">
+    <h1>List of the sellars:</h1>
+
+    <div>
+        @foreach (var Seller in Model.Sellers)
+        {
+            <h3>Seller name: @Seller.Name</h3>
+            <h3>How many cars are sold: @Seller.NumbOfSelling</h3>
+             <h3>Whom is sold</h3>
+            @foreach (var Owner in Seller.Owners)
+            {
+                <h3>@Owner.Name</h3>
+            }
+            
+            <p>-----------------------------------------</p>
+        }
+
+    </div>
+
+</section>

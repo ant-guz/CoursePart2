@@ -1,0 +1,21 @@
+﻿@page
+@model HW.Additional.Pages.CarsModel
+@{
+    ViewData["Title"] = "Cars";
+}
+<section id="seller">
+    <h1>List of the sellars:</h1>
+
+    <div>
+        @foreach (var Car in Model.Cars)
+        {
+            <h3>Car name: @Car.Name</h3>
+            <h3>Car type: @Car.Type</h3>
+            <h3>Car prise: @Car.Price</h3>
+            <h3>Car model: @Car.Model</h3>
+            <p>-----------------------------------------</p>
+        }
+
+    </div>
+
+</section>
