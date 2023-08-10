@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PizzaAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PizzaAPI.Controllers.PizzaController.GetAllPizzas">
+            <summary>
+            Gets a list of all pizzas.
+            </summary>
+            <returns>List of pizzas.</returns>
+        </member>
+    </members>
+</doc>

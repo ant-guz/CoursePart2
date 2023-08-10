@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTMLandCSS", "HTMLandCSS\HT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.Additional", "HW.Additional\HW.Additional.csproj", "{09D5D96A-A3B7-4848-A15A-CF7D6836D514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaAPI", "PizzaAPI\PizzaAPI.csproj", "{B147CA74-ADCE-4106-BEF1-4A9F686B5B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D5D96A-A3B7-4848-A15A-CF7D6836D514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B147CA74-ADCE-4106-BEF1-4A9F686B5B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B147CA74-ADCE-4106-BEF1-4A9F686B5B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B147CA74-ADCE-4106-BEF1-4A9F686B5B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B147CA74-ADCE-4106-BEF1-4A9F686B5B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
